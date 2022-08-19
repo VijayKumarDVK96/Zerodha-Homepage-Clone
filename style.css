@@ -1,0 +1,369 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #424242;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+header {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+header .row {
+    align-items: center;
+    position: relative;
+}
+
+header .header_logo img {
+    height: 18px;
+}
+
+header .header_nav {
+    position: absolute;
+    right: 0;
+}
+
+header .header_nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header .header_nav ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* Banner */
+
+.banner {
+    margin-top: 60px;
+}
+
+.banner .row {
+    justify-content: center;
+}
+
+.banner img {
+    height: 40vh;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.banner .banner_content {
+    width: 100%;
+    text-align: center;
+}
+
+.banner .banner_content h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner .banner_content p {
+    font-size: 20px;
+}
+
+.banner .banner_content button {
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+/* Largest stock broker */
+
+.largest-stock-broker {
+    margin: 90px 0;
+}
+
+.largest-stock-broker .stock {
+    width: 45%;
+    margin: auto;
+}
+
+.largest-stock-broker img:first-child {
+    width: 80%;
+    margin-top: 45px;
+}
+
+.largest-stock-broker img {
+    width: 100%;
+}
+
+.largest-stock-broker h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.largest-stock-broker ul:first-child {
+    padding: 0;
+}
+
+.largest-stock-broker ul {
+    margin-left: 15px;
+}
+
+.largest-stock-broker ul li {
+    margin-bottom: 10px;
+}
+
+.largest-stock-broker ul li, .largest-stock-broker p {
+    font-size: 17px;
+}
+
+/* Zerodha Universe */
+
+.zerodha_universe {
+    margin: 90px 0;
+}
+
+.zerodha_universe h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.zerodha_universe p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.zerodha_universe h2, .zerodha_universe p {
+    width: 100%;
+    text-align: center;
+}
+
+.zerodha_universe a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Unbeatable Pricing */
+
+.unbeatable_pricing {
+    margin: 90px 0;
+}
+
+.unbeatable_pricing .stock {
+    width: 45%;
+    margin: auto;
+}
+
+.unbeatable_pricing a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.unbeatable_pricing .stock .stock_block {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.unbeatable_pricing .stock .stock_block:first-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.unbeatable_pricing .stock h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.unbeatable_pricing .stock p {
+    font-size: 17px;
+}
+
+.unbeatable_pricing .stock .stock_block h2 {
+    height: 25px;
+    font-size: 40px;
+}
+
+.unbeatable_pricing .stock .stock_block p {
+    height: 25px;
+}
+
+/* Free Open */
+
+.free_open {
+    margin: 90px 0;
+}
+
+.free_open .stock {
+    width: 45%;
+    margin: auto;
+}
+
+.free_open h2 {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+.free_open .stock a {
+    text-decoration: none;
+}
+
+.free_open .stock p {
+    margin: 25px 0;
+    font-size: 17px;
+}
+
+/* Call to Action */
+
+.call_to_action {
+    margin: 90px 0;
+}
+
+.call_to_action .action_block {
+	width: 100%;
+	text-align: center;
+}
+
+.call_to_action .action_block h2 {
+	font-size: 33px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.call_to_action .action_block p {
+	font-size: 15px;
+    margin: 20px 0;
+}
+
+.call_to_action .action_block button {
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #387ed1;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-top: 15px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #fafafb;
+    padding: 10px 0;
+}
+
+footer .row {
+    align-items: baseline;
+}
+
+footer .f_block {
+    width: 20%;
+    margin-right: auto;
+}
+
+footer .f_block img {
+    height: 18px;
+}
+
+footer .f_block p {
+    color: #000;
+    font-size: 18px;
+}
+
+footer .f_block span {
+    font-size: 14px;
+    display: block;
+    margin: 20px 0;
+    color: #666;
+}
+
+footer .f_block ul {
+    padding: 0;
+}
+
+footer .f_block ul li {
+   list-style-type: none;
+   margin-bottom: 10px;
+}
+
+footer .f_block .social_link ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .f_block .social_link ul li:first-child {
+    margin-left: 0;
+}
+
+footer .f_block .social_link ul li a i {
+    font-size: 20px;
+}
+
+footer .f_block ul li a {
+   text-decoration: none;
+   color: #666;
+}
+
+footer .f_block ul li a:hover {
+	color: #387ed1;
+}
+
+footer .footer_description {
+    margin-top: 20px;
+}
+
+footer .footer_description p {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9b9b9b;
+}
+
+footer .footer_description p a {
+    text-decoration: none;
+}
+
+footer .footer_bottom_nav {
+    padding: 0;
+}
+
+footer .footer_bottom_nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .footer_bottom_nav li a {
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: 12px;
+}
+
+.justify-center {
+    justify-content: center;
+}
